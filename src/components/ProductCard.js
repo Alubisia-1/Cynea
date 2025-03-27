@@ -1,3 +1,4 @@
+// src/components/ProductCard.js
 import React from 'react';
 
 const ProductCard = ({ icon, title, target, description }) => {
@@ -7,7 +8,6 @@ const ProductCard = ({ icon, title, target, description }) => {
       <h3>{title}</h3>
       <p className="target">{target}</p>
       <p className="description">{description}</p>
-      <button className="learn-more">Learn More</button>
     </div>
   );
 };
